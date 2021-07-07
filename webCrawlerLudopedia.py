@@ -17,7 +17,7 @@ websites = []
 arrayIntermediario = []
 newDf = pd.DataFrame()
 
-nome_ficheiro = 'ludopedia.csv'
+nome_ficheiro = 'ludopediaDatabase.csv'
 
 for x in range(1, 54):
     site = "https://www.ludopedia.com.br/ranking?pagina=" + str (x)
