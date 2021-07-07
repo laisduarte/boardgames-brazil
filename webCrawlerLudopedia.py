@@ -49,7 +49,7 @@ for website in websites:
     print (infos)
     nome = infos[0].find('a').text
     print (nome)
-    ano = infos[0].find('span',{'class':" text-xs"}).text
+    ano = infos[0].find('span',{'class':"text-xs"}).text
     detalhes = infos[0].ul.findAll ('li')
     for info in detalhes:
             
